@@ -1,0 +1,16 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:cooljam.ViewModels;assembly=cooljam"
+        Icon="resm:cooljam.Assets.avalonia-logo.ico"
+        Title="cooljam">
+
+  <Design.DataContext>
+    <vm:MainWindowViewModel/>
+  </Design.DataContext>
+  
+  <Grid Name="gridiron">
+  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>    
+  
+  </Grid>
+
+</Window>
